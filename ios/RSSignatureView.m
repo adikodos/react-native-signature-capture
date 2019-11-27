@@ -64,6 +64,7 @@
 		sign = [[PPSSignatureView alloc]
 						initWithFrame: CGRectMake(0, 0, screen.width, screen.height)
 						context: _context];
+		sign.backgroundColor = [UIColor clearColor];
 		sign.manager = manager;
 
 		[self addSubview:sign];
